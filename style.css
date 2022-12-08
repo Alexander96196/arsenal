@@ -18221,3 +18221,9 @@ header .menu .search-block {
 /* /local/css/style.css?1665720797293683 */
 /* /local/templates/.default/components/arturgolubev/search.title/.plus-cats/style.min.css?166495620111942 */
 /* /bitrix/components/catda/search.page.history/templates/.default/style.css?16669335763005 */
+
+/* New styles */
+
+.delivery-page .filters .two-in-line .filter-unit {
+  align-items: flex-start;
+}
