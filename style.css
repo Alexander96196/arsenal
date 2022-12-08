@@ -8328,13 +8328,6 @@ footer .game span.retry {
   color: #333;
 }
 
-.catalog-detail-page .about-section .header>span.article,
-.catalog-detail-page .about-section .options>span.article {
-  padding: 1px 0 4px;
-  font: 13px/18px Arial, sans-serif;
-  color: #999;
-}
-
 .catalog-detail-page .about-section .services .header {
   display: none;
 }
@@ -16624,10 +16617,6 @@ select#sort_result {
   background: 0 0;
 }
 
-.catalog-detail-page .stocks-section.top_position .header {
-  margin-top: 12px;
-}
-
 .catalog-detail-page .stocks-section.top_position .stock {
   width: 100%;
   padding: 21px 15px 15px;
@@ -18223,6 +18212,123 @@ header .menu .search-block {
 /* /bitrix/components/catda/search.page.history/templates/.default/style.css?16669335763005 */
 
 /* New styles */
+
+/* Catalog */
+
+.catalog-detail-page .photo-section {
+  width: 405px;
+}
+
+.catalog-detail-page .photo-section .main-photo {
+  width: 405px;
+  height: 405px;
+}
+
+.catalog-detail-page .buy-section .header>span.article,
+.catalog-detail-page .buy-section .options>span.article {
+  padding: 1px 0 4px;
+  font: 13px/18px Arial, sans-serif;
+  color: #999;
+}
+
+.catalog-detail-page .tabs-content.stocks {
+  margin-top: 12px;
+}
+
+.catalog-detail-page .stocks-section.top_position .stock {
+  margin: 12px 0;
+}
+
+.catalog-detail-page .stocks-section .stock-list {
+  margin-top: 0;
+}
+
+.tabs>.tabs-content {
+  display: block; 
+  margin-top: 18px;
+  padding: 0;
+}
+
+.button.card span {
+  margin: 0;
+}
+
+.catalog-detail-page .price span.unit, .product-list.block .product-block .price .unit {
+  font-size: 20px;
+}
+
+.catalog-detail-page .tabs-content.stocks .price-item {
+  font-size: 22px;
+  align-items: center;
+}
+
+.catalog-detail-page .price {
+  display: block; /* Демонстрационный вариант, убрать при добавление в проект */
+  font: 700 24px/30px Arial, sans-serif;
+  color: #333;
+}
+
+.catalog-detail-page .tabs-content.buy {
+  padding-top: 10px;
+}
+
+.catalog-detail-page .tabs-content.stocks .price-item .price-name {
+  font-size: 16px;
+}
+
+.catalog-detail-page .buy-section .action {
+  margin-top: 13px;
+  padding: 9px 0 13px;
+}
+
+.catalog-detail-page .buy-section .action a {
+  margin: 0 0 0 27px;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.catalog-detail-page .buy-section a {
+  font-size: 14px;
+  color: #224c98;
+  text-decoration: none;
+  display: inline-block;
+  margin: 9px 0 13px;
+  border-bottom: 1px dashed transparent;
+}
+
+.action a:hover {
+  border-color: #224c98;
+}
+
+.catalog-detail-page .buy-section .action .sep {
+  width: 1px;
+  height: 17px;
+  display: inline-block;
+  margin: 3px 0 -3px 10px;
+  border-left: 1px solid #999;
+}
+
+.catalog-detail-page .buy-section .action .favorite:before {
+  width: 16px;
+  height: 16px;
+  background: url(/local/css/../images/sprite.svg) -86px -183px no-repeat;
+  position: absolute;
+  content: '';
+  left: -20px;
+}
+
+.catalog-detail-page .buy-section .action .compare:before {
+  width: 14px;
+  height: 14px;
+  background: url(/local/css/../images/sprite.svg) -207px -166px no-repeat;
+  position: absolute;
+  content: '';
+  left: -24px;
+  top: 3px;
+}
+
+/* Delivery */
 
 .delivery-page .filters .two-in-line .filter-unit {
   align-items: flex-start;
